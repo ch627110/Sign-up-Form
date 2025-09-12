@@ -1,43 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up Form</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <form action="" method="post">
-        <div id="image-logo"></div>
-        <div id="information">
-            <div id="header">
-                <p>This is not a real online service! You know you need 
-                    something like this in your life to help you realize your 
-                    deepest dreams.</p>
-                <p>Sign up <em>now</em> to get  started.</p>
-                <p>You <em>know</em> you want to.<p></p>
-            </div>
-            <fieldset>
-                <legend>Let's do this!</legend>
-                <label for="first_name">First Name:</label>
-                <input type="text" id="first_name" name="first_name">                    
-                <label for="last_name">Last Name:</label>
-                <input type="text" id="last_name" name="last_name">                    
-                <label for="user_email">Email Address:</label>
-                <input type="email" id="user_email" name="email">                    
-                <label for="phone_number">Phone Number:</label>
-                <input type="tel" id="phone_number" name="phone_number">                    
-                <label for="user_password">Password:</label>
-                <input type="password" id="user_password" name="password">                    
-                <label for="user_password">Confirm Password:</label>
-                <input type="password" id="user_password" name="password">                    
-            </fieldset>
-            <div id="footer">
-                <button type="button">Create Account</button>
-                <p>Already have an account?</p>
-            </div>  
-        </div>              
-    </form>
-</div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-up Form</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form action="" method="post">
+            <img src="img/daniil-silantev-VHgdvHXkhWQ-unsplash.jpg" id="image-logo">
+            <div id="information">
+                <div id="header">
+                    <p>This is not a real online service!</p> 
+                    <p>You know you need something like this in your life to help 
+                        you realize your deepest dreams. Sign up <em>now</em> to get 
+                        started.</p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+                <div id="input">
+                    <div>
+                        <p>
+                            <label for="first_name">
+                                <span>First Name</span>
+                            </label>
+                            <input type="text" id="first_name" name="first_name">  
+                        </p>
+                        <p>  
+                            <label for="last_name">
+                                <span>Last Name</span>
+                            </label>
+                            <input type="text" id="last_name" name="last_name"> 
+                        </p>  
+                    </div>
+                    <div>                            
+                        <p>
+                            <label for="user_email">
+                                <span>Email Address</span>
+                            </label>
+                            <input type="email" id="user_email" name="email">  
+                        </p>      
+                        <p>  
+                            <label for="phone_number">
+                                <span>Phone Number</span>
+                            </label>
+                            <input type="tel" id="phone_number" name="phone_number">                        
+                        </p>                                  
+                    </div>  
+                    <div> 
+                        <p>
+                            <label for="user_password">
+                                <span>Password</span>
+                            </label>
+                            <input type="password" id="user_password" name="password">  
+                        </p>                         
+                        <p>
+                            <label for="user_password">
+                                <span>Confirm Password</span>
+                            </label>
+                            <input type="password" id="user_password" name="password">  
+                        </p>                                                                    
+                    </div>             
+                </div> 
+                <div id="footer">
+                        <p>Already have an account?</p>
+                        <button type="button">Create Account</button>
+                </div> 
+            </div>              
+        </form>
+    </body>
 </html>

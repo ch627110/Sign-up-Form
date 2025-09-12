@@ -1,12 +1,20 @@
 * {
     justify-content: center;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: silver;
+
+}
+
+html {
+    background-color: black;
 }
 
 body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 form {
@@ -16,13 +24,55 @@ form {
 
 #image-logo {
     width: 30%;
-    background-color: lightblue;
+    background-image: 'img/daniil-silantev-VHgdvHXkhWQ-unsplash.jpg';
 }
 
 #information {
     width: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+}
+
+#information > div {
+    height: 32%;
+}
+
+#header {
+    width: 70%;
+    text-align: center;
+    align-content: center;
+}
+
+#input {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#input div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#input p {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+#footer {
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: silver;
+    color: black;
+    border-radius: 5px;
+}
+
+button {
+    color: black;
 }
