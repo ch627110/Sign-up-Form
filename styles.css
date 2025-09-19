@@ -65,14 +65,34 @@ form {
     justify-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 input {
     background-color: silver;
     color: black;
     border-radius: 5px;
+    outline: 2px solid #000;
+}
+
+input:user-invalid {
+    outline-color: red;
+}
+
+input:valid {
+    outline-color: green;
+}
+
+input:focus {
+    outline-color:royalblue;
 }
 
 button {
     color: black;
+}
+
+button + p {
+    padding-top: 0px;
+    margin-top: 0px;
+    color: firebrick
 }
