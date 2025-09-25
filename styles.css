@@ -4,7 +4,6 @@
     font-weight: 400;
     font-style: normal;
     color: silver;
-
 }
 
 html {
@@ -19,19 +18,34 @@ body {
 
 form {
     display: flex;
-    height: 98vh;
+    height: 99vh;
+    width: 99vw;
+    justify-content: space-between;
 }
 
 #image-logo {
+    display: flex;
     width: 30%;
-    background-image: 'img/daniil-silantev-VHgdvHXkhWQ-unsplash.jpg';
+    background-image: 
+        url('logos/odin-lined.png'), 
+        linear-gradient(rgb(0 0 0 / 40%)),
+        url('img/daniil-silantev-VHgdvHXkhWQ-unsplash.jpg');
+    background-position: 
+        50% 25%, 
+        50% 24%, 
+        center;
+    background-size: 
+        15% 10%, 
+        100% 13%, 
+        100% 100%;
+    background-repeat: no-repeat;
 }
 
 #information {
-    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 #information > div {
@@ -48,11 +62,14 @@ form {
     width: 50%;
     display: flex;
     flex-direction: column;
+
+    border: 1px solid silver;
+    border-radius: 10px;
 }
 
 #input div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #input p {
