@@ -18,16 +18,16 @@ usability and responsive layout.
 
 ## Screenshots
 User tries to submit the form with a missing field.
-![alt text](image.png)
+![alt text](/screenshots/image.png)
 
 User tries to submit the form with an invalid email.
-![alt text](image-1.png)
+![alt text](/screenshots/image-1.png)
 
 User tried to the submit the form with an invalid phone number
-![alt text](image-2.png)
+![alt text](/screenshots/image-2.png)
 
 User enters a valid phone number in the form.
-![alt text](image-3.png)
+![alt text](/screenshots/image-3.png)
 
 ## Future Improvements
 - Add password strength indicator.
