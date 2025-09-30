@@ -17,16 +17,16 @@ usability and responsive layout.
 - Focused on accessibility best practices.
 
 ## Screenshots
-User tries to submit the form with a missing field.
+User tries to submit the form with a missing field.  
 ![alt text](/screenshots/image.png)
 
-User tries to submit the form with an invalid email.
+User tries to submit the form with an invalid email.  
 ![alt text](/screenshots/image-1.png)
 
-User tried to the submit the form with an invalid phone number
+User tried to the submit the form with an invalid phone number.  
 ![alt text](/screenshots/image-2.png)
 
-User enters a valid phone number in the form.
+User enters a valid phone number in the form.  
 ![alt text](/screenshots/image-3.png)
 
 ## Future Improvements
