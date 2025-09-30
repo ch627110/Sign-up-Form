@@ -23,7 +23,7 @@ User tries to submit the form with a missing field.
 User tries to submit the form with an invalid email.  
 ![alt text](/screenshots/image-1.png)
 
-User tried to the submit the form with an invalid phone number.  
+User tries to the submit the form with an invalid phone number.  
 ![alt text](/screenshots/image-2.png)
 
 User enters a valid phone number in the form.  
